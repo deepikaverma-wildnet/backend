@@ -55,17 +55,17 @@ add_filter( 'nav_menu_link_attributes', 'property_theme_nav_menu_link_attributes
 
 function custom_register_jobs_cpt() {
     $labels = array(
-        'name'               => __( 'Jobs', 'my-custom-theme' ),
-        'singular_name'      => __( 'Job', 'my-custom-theme' ),
-        'menu_name'          => __( 'Jobs', 'my-custom-theme' ),
-        'all_items'          => __( 'All Jobs', 'my-custom-theme' ),
-        'add_new_item'       => __( 'Add New Job', 'my-custom-theme' ),
-        'add_new'            => __( 'Add New', 'my-custom-theme' ),
-        'new_item'           => __( 'New Job', 'my-custom-theme' ),
-        'edit_item'          => __( 'Edit Job', 'my-custom-theme' ),
-        'update_item'        => __( 'Update Job', 'my-custom-theme' ),
-        'view_item'          => __( 'View Job', 'my-custom-theme' ),
-        'view_items'         => __( 'View Jobs', 'my-custom-theme' ),
+        'name'               => __( 'Jobs', 'property-theme' ),
+        'singular_name'      => __( 'Job', 'property-theme' ),
+        'menu_name'          => __( 'Jobs', 'property-theme' ),
+        'all_items'          => __( 'All Jobs', 'property-theme' ),
+        'add_new_item'       => __( 'Add New Job', 'property-theme' ),
+        'add_new'            => __( 'Add New', 'property-theme' ),
+        'new_item'           => __( 'New Job', 'property-theme' ),
+        'edit_item'          => __( 'Edit Job', 'property-theme' ),
+        'update_item'        => __( 'Update Job', 'property-theme' ),
+        'view_item'          => __( 'View Job', 'property-theme' ),
+        'view_items'         => __( 'View Jobs', 'property-theme' ),
     );
 
     $supports = array(
@@ -79,8 +79,8 @@ function custom_register_jobs_cpt() {
     );
 
     $args = array(
-        'label'               => __( 'Jobs', 'my-custom-theme' ),
-        'description'         => __( 'Post type Jobs', 'my-custom-theme' ),
+        'label'               => __( 'Jobs', 'property-theme' ),
+        'description'         => __( 'Post type Jobs', 'property-theme' ),
         'labels'              => $labels,
         'supports'            => $supports,
         'hierarchical'        => false,
